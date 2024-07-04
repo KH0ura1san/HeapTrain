@@ -1,0 +1,5 @@
+# ninja log v6
+2	180	1719593138427954194	CMakeFiles/HeapTrain.dir/leak.c.o	4992e125569ac7c4
+2	220	1719593138427809654	CMakeFiles/HeapTrain.dir/utils.c.o	b1e078058c8f03a2
+2	220	1719593138427669822	CMakeFiles/HeapTrain.dir/heap.c.o	cae655eb2df4ee2e
+1	221	1719593138426897411	CMakeFiles/HeapTrain.dir/main.c.o	d3f9dd0a8c171513
