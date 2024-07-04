@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <string.h>
-#include <libc.h>
 #include "utils.c"
 void *chunkList[0x10000] = {0};
 
@@ -69,4 +68,24 @@ void show(){
         puts("Invalid input!");
     }
 
+}
+
+void logo(){
+    puts("  _    _               _______        _       ");
+    puts(" | |  | |             |__   __|      (_)      ");
+    puts(" | |__| | ___  __ _ _ __ | |_ __ __ _ _ _ __  ");
+    puts(" |  __  |/ _ \\/ _` | '_ \\| | '__/ _` | | '_ \\ ");
+    puts(" | |  | |  __/ (_| | |_) | | | | (_| | | | | |");
+    puts(" |_|  |_|\\___|\\__,_| .__/|_|_|  \\__,_|_|_| |_|");
+    puts("                   | |                        ");
+    puts("                   |_|                        ");
+}
+
+void menu(){
+    puts("What do you want to do?");
+    puts("1. Add a chunk.");
+    puts("2. Delete a chunk");
+    puts("3. Edit a chunk");
+    puts("4. Show a chunk");
+    printf("Please input your choose: ");
 }
